@@ -18,8 +18,8 @@ botunuzu bu şekilde davet edin.
 # Yardım
 
 Eğer yardıma ihtiyacınız olursa:<br>
-<a src="https://discord.gg/Dqe2n6wb2b">Discord</a><br>
-<a src="https://covid-19code.xyz/">Kod Paylaşım Sitesi</a><br>
-<a src="https://inflames.xyz/">Kişisel Sitem</a><br>
+[Discord](https://discord.gg/Dqe2n6wb2b)<br>
+[Kod Paylaşım Sitesi](https://covid-19code.xyz/)<br>
+[Kişisel Sitem](https://inflames.xyz/)<br>
 <br><br>
 <b>Altyapı Sahibi:</b> InFlames#2005
