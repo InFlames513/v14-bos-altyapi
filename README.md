@@ -1,2 +1,25 @@
-# v14-bo-altyap-
-https://discord.gg/Dqe2n6wb2b
+# Ön Gösterim
+
+![Komut ss](https://inflames.please-fuck.me/5BrU4zDBr.png)
+
+# Kurulum
+
+src/base/settings.json dosyasına girip gerekli yerleri doldurunuz.<br>
+Terminale girip <b>npm i</b> yazın modüller kurulduktan sonra <b> node index.js</b> yazarak botu başlatabilirsiniz.
+
+# Slash Command
+
+Botunuzda slash commandların çalışabilmesi için:<br><br>
+
+![İzinler](https://inflames.please-fuck.me/5BrW3rFPx.png)<br>
+
+botunuzu bu şekilde davet edin.
+
+# Yardım
+
+Eğer yardıma ihtiyacınız olursa:<br>
+<a src="https://discord.gg/Dqe2n6wb2b">Discord</a><br>
+<a src="https://covid-19code.xyz/">Kod Paylaşım Sitesi</a><br>
+<a src="https://inflames.xyz/">Kişisel Sitem</a><br>
+<br><br>
+<b>Altyapı Sahibi:</b> InFlames#2005
