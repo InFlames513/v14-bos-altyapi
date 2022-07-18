@@ -1,6 +1,6 @@
 {
   "name": "covid-v14",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Covid-19 code sunucusuna ait v14 altyapı",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^0.4.1",
-    "discord.js": "^14.0.0-dev.1657411900-f0b68d5",
+    "discord.js": "^14.0.1",
     "inflames.db": "^2.5.3"
   }
 }
