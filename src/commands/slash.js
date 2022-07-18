@@ -8,15 +8,21 @@ module.exports = {
         {   //1. option
             name: 'test',  //options ismi
             description: 'test',  //options açıklama
-            type: 'number', //options türü
-            require: true //optionsu doldurmak zorunlu mu (true) isteğe bağlı mı (false)
-        },
+            type: 'string', //options türü
+            require: true, //optionsu doldurmak zorunlu mu (true) isteğe bağlı mı (false)
+            choices: [  //optionsu doldurmak için choices yani seçenek eklerken kullanacağınız 
+                { name:'sa', value:'as' },
+                { name:'mrb', value:'mrb' },
+                { name:'hg', value:'hb' }
+              ]
+        }, 
         {   //2. option
-            name: 'deneme',
-            description: 'deneme',
-            type: 'string', //options türünü yukarda numara olarak tanımlamıştık burada yazı olarak tanımladık
-            require: false //burada bu optionu isteğe bağlı olara kayarladım
-        }
+            name: 'deneme',  //options ismi
+            description: 'deneme',  //options açıklama
+            type: 'number', //options türü
+            require: false, //optionsu doldurmak zorunlu mu (true) isteğe bağlı mı (false)
+        }, 
+	
     ],
 	async execute(client, interaction) {  //her slash commandda burası aynı olmak zorunda
 		await interaction.reply({content: "> Ping: **"+client.ws.ping+" ms**", ephemeral: true}) //komuta cevap verirken await ekleneyi unutmayın yoksa hata verir.
