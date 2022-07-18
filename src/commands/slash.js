@@ -2,7 +2,7 @@
 
 module.exports = {
     slash: true, //komut eğer slash ise true eğer prefixli ise false yazınız.
-	name: ['ping'],  //komut ismi
+    name: ['ping'],  //komut ismi
     description: 'Ping command.', //komut açıklaması
     option: [
         {   //1. option
