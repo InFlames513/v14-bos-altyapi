@@ -1,3 +1,5 @@
+Covid-19 #Code sunucusuna ait v14 boş altyapı
+
 # Ön Gösterim
 
 ![Komut ss](https://inflames.please-fuck.me/5BrU4zDBr.png)
