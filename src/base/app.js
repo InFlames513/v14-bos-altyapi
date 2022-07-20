@@ -44,7 +44,7 @@ module.exports = (client) => {
               if(command.option[i].type === 'user') slashCommand.addUserOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require))
               if(command.option[i].type === 'channel') slashCommand.addChannelOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require))
               if(command.option[i].type === 'role') slashCommand.addRoleOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require))
-              if(command.option[i].type === 'mentionable') slashCommand.addSMentionableOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require))
+              if(command.option[i].type === 'mentionable') slashCommand.addMentionableOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require))
             } else {
               if(command.option[i].type === 'string') slashCommand.addStringOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require).addChoices(...command.option[i].choices))
               if(command.option[i].type === 'integer') slashCommand.addIntegerOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require).addChoices(...command.option[i].choices))
@@ -53,7 +53,7 @@ module.exports = (client) => {
               if(command.option[i].type === 'user') slashCommand.addUserOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require).addChoices(...command.option[i].choices))
               if(command.option[i].type === 'channel') slashCommand.addChannelOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require).addChoices(...command.option[i].choices))
               if(command.option[i].type === 'role') slashCommand.addRoleOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require).addChoices(...command.option[i].choices))
-              if(command.option[i].type === 'mentionable') slashCommand.addSMentionableOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require).addChoices(...command.option[i].choices))
+              if(command.option[i].type === 'mentionable') slashCommand.addMentionableOption(option => option.setName(command.option[i].name).setDescription(command.option[i].description).setRequired(command.option[i].require).addChoices(...command.option[i].choices))
             }
             
           }
