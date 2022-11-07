@@ -1,6 +1,6 @@
 {
   "name": "covid-v14",
-  "version": "0.0.1",
+  "version": "3.2.0",
   "description": "Covid-19 code sunucusuna ait v14 altyapı",
   "main": "index.js",
   "type": "commonjs",
