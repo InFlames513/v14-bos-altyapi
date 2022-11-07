@@ -1,5 +1,15 @@
 Covid-19 #Code sunucusuna ait v14 boş altyapı
 
+# Özellikler
+
+Subcommand,
+choices,
+slash - prefix,
+options,
+topgg oy şartı ayarlamalı,
+enable - disable
+ve tabiki diğer altyapılardan ayıran en önemli özellik basit kullanım.
+
 # Ön Gösterim
 
 ![Komut ss](https://inflames.please-fuck.me/5BrU4zDBr.png)
