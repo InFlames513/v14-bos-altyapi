@@ -1,4 +1,4 @@
-//botun main dosyası 
+//Botun main dosyası 
 
 const { Client, GatewayIntentBits, Events, Partials } = require("discord.js");
 const client = new Client({ intents: Object.values(GatewayIntentBits).filter(x => typeof x === "string"), partials: [Partials.Message, Partials.Channel, Partials.Reaction],});
