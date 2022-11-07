@@ -1,4 +1,4 @@
-//slash commandlar bu şekilde olmalı isteğe göre optionss sayısını azaltıp arttırabilirsiniz.
+//slash commandlar bu şekilde olmalı isteğe göre options sayısını azaltıp arttırabilirsiniz.
 
 module.exports = {
   slash: true, //komut eğer slash ise true eğer prefixli ise false yazınız.
