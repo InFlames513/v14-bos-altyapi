@@ -1,4 +1,4 @@
-// Bu dosya botun slash komutlarını eventlerini ve message komutlarını yüklemek içindir.
+// Bu dosya botun slash komutlarını eventlerini ve message komutlarını yüklemek içindir, lütfen dokunmayın.
 
 const commands = [];
 const fs = require("node:fs");
