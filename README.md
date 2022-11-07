@@ -2,13 +2,13 @@ Covid-19 #Code sunucusuna ait v14 boş altyapı
 
 # Özellikler
 
-Subcommand,
-choices,
-slash - prefix,
-options,
-topgg oy şartı ayarlamalı,
-enable - disable
-ve tabiki diğer altyapılardan ayıran en önemli özellik basit kullanım.
+Subcommand,<br>
+choices,<br>
+slash - prefix,<br>
+options,<br>
+topgg oy şartı ayarlamalı,<br>
+enable - disable<br>
+ve tabiki diğer altyapılardan ayıran en önemli özellik basit kullanım.<br>
 
 # Ön Gösterim
 
