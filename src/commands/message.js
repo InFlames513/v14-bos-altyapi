@@ -1,8 +1,10 @@
+// Prefixli komutlar bu şekilde olmalı.
+
 const { EmbedBuilder } = require("discord.js");
 const db = require("inflames.db");
 
 module.exports = {
-  slash: false, // komut slash ise true değilse false girin (false yerine bu satırı silebilirsinizde.)
+  slash: false, //komut slash ise true değilse false girin (false yerine bu satırı silebilirsinizde.)
   enable: true, //komut kullanıma açıksa true değilse false girin
   dbl: true, //komut eğer oy zorunlu ise true değilse false girin (false yerine bu satırı silebilirsinizde.)
   name: ["yardım", "help"], //komut isimleri (istediğiniz kadar isim yazabilirsiniz.)
