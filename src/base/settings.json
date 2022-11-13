@@ -1,6 +1,6 @@
 {
-    "prefix": "____", // Prefix
-    "botid": "_____", // Bot Id (slash commandlar için şart)
-    "token": "_____", // Bot Tokeni
-    "topgg": "_____"  // Topgg Tokeni (Botunuz topgg onaylı değilse "topgg": false giriniz.)
+    "prefix": "Prefix",
+    "botid": "Bot Id (slash commandlar için şart)",
+    "token": "Bot Tokeni",
+    "topgg": "Topgg Tokeni (Botunuz topgg onaylı değilse "topgg": false giriniz.)"
 }
