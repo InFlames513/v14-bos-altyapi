@@ -11,13 +11,13 @@ module.exports = {
             name: "string", //option ismi
             description: "String option", //option açıklaması
             type: 3, //option type (Type türleri için: https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type)
-            require: true //optionu doldurmak zorunlu ise true değilse false girin (false yerine bu satırı silebilirsinizde.)
+            required: true //optionu doldurmak zorunlu ise true değilse false girin (false yerine bu satırı silebilirsinizde.)
         },
         { //option 2
             name: "number", //option ismi
             description: "Number option", //option açıklaması
             type: 4, //option type (Type türleri için: https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type)
-            require: true //optionu doldurmak zorunlu ise true değilse false girin (false yerine bu satırı silebilirsinizde.)
+            required: true //optionu doldurmak zorunlu ise true değilse false girin (false yerine bu satırı silebilirsinizde.)
         }
     ],
 	async execute(client, interaction) {  //her slash commandda burası aynı olmak zorunda
