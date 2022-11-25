@@ -18,7 +18,7 @@ module.exports = {
 					else command.execute(client, interaction, dbl);
 				})
 			} else {
-				command.execute(client, message, args, dbl);
+				command.execute(client, interaction, dbl);
 			}
 		} catch (error) {
 		  console.error(error);
