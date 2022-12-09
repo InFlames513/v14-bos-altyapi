@@ -13,7 +13,7 @@
     "@discordjs/rest": "^0.4.1",
     "dblapi.js": "^2.4.1",
     "discord.js": "^14.0.1",
-    "inflames.db": "^2.5.3",
+    "inflames.db": "^4.1.1",
     "moment": "^2.29.4",
     "ms": "^2.1.3"
   }
