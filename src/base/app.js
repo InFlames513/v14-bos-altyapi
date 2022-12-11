@@ -36,7 +36,7 @@ module.exports = (client, dbl) => {
             "name": command.name[0],
             "type": 1,
             "description": command.description,
-            "options": [...command.options]
+            "options": command.options ? [...command.options] : []
           }
           commands.push(slashCommand)
         } else {
