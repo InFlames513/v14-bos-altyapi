@@ -30,7 +30,7 @@ botunuzu bu şekilde davet edin.
 # Yardım
 
 Eğer yardıma ihtiyacınız olursa:<br>
-[Discord](https://discord.gg/Dqe2n6wb2b)<br>
+[Discord](https://discord.gg/mztsyWR3QU)<br>
 [Kod Paylaşım Sitesi](https://covid-19code.xyz/)<br>
 [Kişisel Sitem](https://inflames.fun/)<br><br>
 <b>Altyapı Sahibi:</b> InFlames#2005
