@@ -5,9 +5,7 @@ const client = new Client({ intents: Object.values(GatewayIntentBits).filter(x =
 const { token, topgg } = require("./src/base/settings.json");
 const DBL = require("dblapi.js")
 let dbl;
-if(topgg) {
-	dbl = new DBL(topgg, { webhookPort: 5000, webhookAuth: 'password' });
-}
+if(topgg) dbl = new DBL(topgg, { webhookPort: 5000, webhookAuth: 'password' });
 
 require("./src/base/app.js")(client, dbl)
 
